@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,       // 厳密モード
+    "sourceMap": true,    // 厳密モード
+    "target": "ES5",      // ES5に変換
+    "module": "ES2022",   // モジュールはES Modulesとして出力
+    "jsx": "react-jsx",   // JSXの書式を有効化
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "lib": ["ES2023", "DOM"],
+    "baseUrl": "./viewer/src"
+  }
+}

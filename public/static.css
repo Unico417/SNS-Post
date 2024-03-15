@@ -1,0 +1,20 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    background-color: #333333;
+    font-size: 1rem;
+    font-family: Meiryo;
+}
+
+input,
+textarea {
+    background-color: inherit;
+    color: inherit;
+    font-size: inherit;
+    font-family: inherit;
+}

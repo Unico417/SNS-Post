@@ -1,0 +1,26 @@
+{
+    "accounts": {
+        "account-1": {
+            "platform": "bluesky",
+            "host": "https://bsky.social/xrpc",
+            "serviceID": "",
+            "token": ""
+        },
+        "account-2": {
+            "platform": "misskey",
+            "host": "",
+            "token": ""
+        },
+        "account-3": {
+            "platform": "twitter",
+            "ClientID": "",
+            "ClientSecret": "",
+            "apiKey": "",
+            "apiKeySecret": "",
+            "bearerToken": "",
+            "accessToken": "",
+            "accessSecret": ""
+        }
+    },
+    "port": 22222
+}

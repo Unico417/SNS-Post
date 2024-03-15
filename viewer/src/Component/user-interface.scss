@@ -1,0 +1,84 @@
+#post-form {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    .up,
+    .down {
+        width: 100%;
+        height: 50%;
+        box-sizing: border-box;
+    }
+
+    .up {
+        display: grid;
+        grid-template-columns: .7fr .3fr;
+        background-color: #00000022;
+
+        .left,
+        .right {
+            box-sizing: border-box;
+        }
+
+        .left {
+            height: 100%;
+            padding: 2em;
+
+            textarea {
+                width: 100%;
+                height: 100%;
+                outline: none;
+                border: none;
+                border-radius: 4px;
+                font-size: 1.4rem;
+            }
+        }
+
+        .right {
+            height: 100%;
+            background-color: #00000011;
+            position: relative;
+
+            .image-preview {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+            }
+
+            input.image-reciever {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+            }
+        }
+    }
+
+    .down {
+        background-color: #00000055;
+        padding: 2em;
+        font-size: 1.5rem;
+    }
+
+    .submit {
+        position: absolute;
+        bottom: 50px;
+        right: 50px;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: #29ffb4;
+    }
+}
