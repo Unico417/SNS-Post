@@ -1,0 +1,11 @@
+**/*.js     text eol=lf encoding=utf8
+**/*.jsx    text eol=lf encoding=utf8
+**/*.ts     text eol=lf encoding=utf8
+**/*.tsx    text eol=lf encoding=utf8
+**/*.json   text eol=lf encoding=utf8
+**/*.css    text eol=lf encoding=utf8
+**/*.scss   text eol=lf encoding=utf8
+**/*.html   text eol=lf encoding=utf8
+
+**/*.ps1    text eol=lf encoding=sjis
+**/*.bat    text eol=lf encoding=sjis

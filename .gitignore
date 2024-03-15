@@ -1,0 +1,9 @@
+public/main.js
+public/style.css
+
+viewer/node_modules
+
+server/venv
+server/**/__pycache__
+**/*.pyc
+**/*.log
